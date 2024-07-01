@@ -1,11 +1,17 @@
 import './App.css'
-import { Button } from './components/ui/button'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { Home } from './pages/Home'
+import Tabs  from './components/ui/Tabs'
 function App() {
 
   return (
-    <main>
-      <Button>Hello</Button>
-    </main>
+    <Router>
+      <Tabs />
+      <Routes key={location.pathname} location={location}>
+        <Route path="/" element={<Home />} />
+       
+      </Routes>
+    </Router>
   )
 }
 
