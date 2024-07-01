@@ -21,3 +21,9 @@
     object-fit: cover;
   }
   
+  .sticky {
+    position: fixed;
+    top: 0px; /* Adjust this value based on the height of your TopComponent */
+    width: 100%;
+    z-index: 999;
+  }

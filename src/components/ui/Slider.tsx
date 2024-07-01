@@ -19,7 +19,7 @@ const Slider = () => {
     scrollbar={{ draggable: true }}
     onSwiper={(swiper) => console.log(swiper)}
     onSlideChange={() => console.log('slide change')}
-    className='mt-20 border-2 border-red-500 mySwiper'
+    className='mt[1rem] border-2 border-red-500 mySwiper'
   >
     <SwiperSlide>
         <img src={ slide} alt="slide" />

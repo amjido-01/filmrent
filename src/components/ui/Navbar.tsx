@@ -18,7 +18,7 @@ export const Navbar: React.FC = () => {
   return (
    
 
-<nav className="bg-white dark:bg-gray-900  w-full z-20 top-0 mt[3.5rem] start-0 border-2 border-gray-200 dark:border-gray-600">
+<nav className="bg-white relative dark:bg-gray-900  w-full z-20 top-0 mt[3.5rem] start-0 border-2 border-gray-200 dark:border-gray-600">
   <div className="max-w-screen-xl flex gap-4 flex-wrap items-center mx-auto p-4">
   <div className="flex">
      
